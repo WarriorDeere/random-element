@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+.circle{
+    /* background-image: radial-gradient(aqua, black); */
+    width: 200vh;
+    height: 200vh;
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+.green{
+    box-shadow: 0 0 5vh 1vh rgb(115, 255, 0, .8), 0 0 5vh .5vh rgb(115, 255, 0, .8) inset;
+}
+
+.red{
+    box-shadow: 0 0 5vh 1vh rgba(255, 60, 0, .8), 0 0 5vh .5vh rgb(255, 60, 0, .8) inset;
+}
+
+.blue{
+    box-shadow: 0 0 5vh 1vh rgba(0, 185, 255, .8), 0 0 5vh .5vh rgb(0, 185, 255, .8) inset;
+}
